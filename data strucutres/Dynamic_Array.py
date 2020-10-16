@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Dynamic Array
-
-# In[8]:
-
-
 import ctypes
 
 class DynamicArray(object):
@@ -57,10 +49,3 @@ class DynamicArray(object):
     def make_array(self,new_cap):
         return(new_cap*ctypes.py_object)()
      
-
-
-# In[ ]:
-
-
-
-
